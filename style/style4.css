@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    text-decoration: none;
+}
+
+header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:  url(../IMAGES/contact-img.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.M1{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+    height: 100%;
+}
+
+.text-on-image{
+    position: relative;
+    top: -550px;
+}
+
+nav{
+    height: 100%;
+    display: block;
+    background-color: #ECECEC;
+    margin: 0;
+}
+
+pre{
+    font-size: 17px;
+}
+
+ul{
+    margin-right: 150px;
+}
+
+li{
+    display: inline;
+    float: right;
+    list-style: none;
+    padding-right: 40px;
+    position: relative;
+    top: -70px;
+    right: 30px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+:any-link{
+    color: white;
+}
+
+:any-link:hover{
+    color: grey;
+}
+
+.nav-text{
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 20px;
+    padding-left: 80px;
+    color: white;
+}
+
+.first-button{
+    width: 130px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+    float: right;
+    position: relative;
+    top: -80px;
+    left: 500px;
+    cursor: pointer;
+}
+
+.first-button:hover{
+    background-color: grey;
+    color: white;
+    transition: 0.35s;
+}
+
+.first-text-on-image{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -500px;
+}
+
+.text1{
+    font-size: 70px;
+    padding: 10px;
+    position: relative;
+    top: 80px;
+    right: -325px;
+}
+
+          /*CONTACT-INFO*/
+
+.contact-portion{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -220px;
+    padding-top: 80px;
+}          
+
+.data{
+    width: 50%;
+    padding-left: 70px;
+}
+
+.contact-info{
+    width: 50%;
+    padding-left: 70px;
+}
+
+.logo-img{
+    width: 10%;
+    padding: 10px;
+}
+
+.hr-1{
+    width: 29%;
+    border-top: 3.5px solid black;
+    border-bottom: none;
+    margin: 10px;
+    margin-bottom: 80px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+label{
+    font-size: 25px;
+}
+
+input{
+    width: 90%;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 0.5px solid silver;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 90%;
+    height: 70px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 0.5px solid silver;
+    border-radius: 5px;
+}
+
+.btn-1{
+    width: 130px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.btn-1:hover{
+    background-color: grey;
+    color: white;
+    transition: 0.35s;
+}
+
+/* FOOTER STYLING */
+
+footer{
+    background-color: rgb(60, 55, 55);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    padding-top: 20px;
+}
