@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+                    /* NAVBAR */
+
+#navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: transparent;
+    color: white;
+    height: 75px;
+    width: 100vw;
+    align-items: center;
+}
+
+.nav-heading{
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+.items{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.primary-text{
+    margin-left: 30px;
+}
+
+ul li a{
+    padding: 16px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+ul li a:hover{
+    border: none;
+    color: grey;
+}
+
+input{
+    height: 30px;
+    padding: 18px 10px;
+    margin-right: -10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-1{
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: -20px;
+}
+
+.btn-1:hover{
+    color: white;
+    background-color: grey;
+}
+
+.primary-text-heading{
+    font-size: 3rem;
+}
+
+.nav-heading{
+    margin-top: -20px;
+}
+
+/* SHOWCASE */
+
+#showcase{
+    background: url(../images/about-us-img.jpg) no-repeat center center/cover fixed;
+    height: 80vh;
+    width: 100vw;
+    color: white;
+}
+
+#showcase a{
+    margin: 25px;
+}
+
+.dark-overlay1{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container-1{
+    height: 100vh;
+    background-color: transparent;
+    color: white;
+}
+
+.content{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.content-heading{
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+/* WHO WE ARE */
+
+.container-2{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 30px;
+}
+
+.portion-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.portion-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.second-img{
+    width:80%;
+    padding: 20px;
+}
+
+hr{
+    width: 100px;
+    border: none;
+    border-bottom: 3px solid black;
+    float: left;
+    margin: 10px 10px;
+}
+
+.first{
+    height: 40vh;
+    padding: 30px;
+}
+
+.third{
+    height: 40vh;
+    padding: 30px;
+}
+
+.fourth{
+    height: 40vh;
+    padding: 30px;
+}
+
+.text{
+    margin-top: 40px;
+    text-align: left;
+    padding-right: 30px;
+    font-size: 1.2rem;
+}
+
+.heading{
+    font-size: 2.3rem;
+}
+
+.names-ul{
+    padding: 20px;
+    margin-left: 40px;
+}
+
+footer{
+    margin-top: 100px;
+    height: 15vh;
+    width: 100vw;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    padding-top: 20px;
+}

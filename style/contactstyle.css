@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+                    /* NAVBAR */
+
+#navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: transparent;
+    color: white;
+    height: 75px;
+    width: 100vw;
+    align-items: center;
+}
+
+.nav-heading{
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+.items{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.primary-text{
+    margin-left: 30px;
+}
+
+ul li a{
+    padding: 16px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+ul li a:hover{
+    border: none;
+    color: grey;
+}
+
+input{
+    height: 30px;
+    padding: 18px 10px;
+    margin-right: -10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-1{
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: -20px;
+}
+
+.btn-1:hover{
+    color: white;
+    background-color: grey;
+}
+
+.primary-text-heading{
+    font-size: 3rem;
+}
+
+.nav-heading{
+    margin-top: -20px;
+}
+
+/* SHOWCASE */
+
+#showcase{
+    background: url(../images/contact-img.jpg) no-repeat center center/cover fixed;
+    height: 80vh;
+    width: 100vw;
+    color: white;
+}
+
+#showcase a{
+    margin: 25px;
+}
+
+.dark-overlay1{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container-1{
+    height: 100vh;
+    background-color: transparent;
+    color: white;
+}
+
+.content{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.content-heading{
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+/* CONTACT INFO */
+
+.container-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: -50px;
+}
+
+.heading{
+    font-size: 2.5rem;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+hr{
+    width: 100px;
+    border: none;
+    border-bottom: 3px solid black;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+label{
+    font-size: 1.2rem;
+    margin: 20px;
+}
+
+input{
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+textarea{
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: 20px;
+    width: 185px;
+}
+
+.form-btn{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 10px 20px;
+}
+
+.form-btn:hover{
+    background-color: #333;
+    color: white;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin: 20px 20px;
+}
+
+p{
+    margin-left: 20px;
+}
+
+.logos{
+    width: 50px;
+    margin: 20px;
+}
+
+footer{
+    margin-top: 50px;
+    height: 15vh;
+    width: 100vw;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    padding-top: 20px;
+}
